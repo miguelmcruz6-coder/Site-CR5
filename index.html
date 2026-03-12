@@ -1,29 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header>
-        <img src="" alt="Logo do SENAI">
-        <ul>
-            <li class="opcoes"></li>
-            <li class="opcoes"></li>
-            <li class="opcoes"></li>
-            <li class="opcoes"></li>
-        </ul>
+        <div class="logo">
+            <img src="./image.png" alt="">
+        </div>
+        <nav>
+            <ul id="menu">
+                <li>Início</li>
+                <li>Como iniciar</li>
+                <li>Controles</li>
+                <li>Programação</li>
+                <li>Segurança</li>
+            </ul>
+        </nav>
     </header>
-    <main>
-        <section>
-            <h2>CR5</h2>
-            <article></article>
-            <article></article>
-        </section>
-        <aside></aside>
-    </main>
 
+    <main>
+        <div id="parte-primaria">
+            <div class="robo3d">
+                    <img  src="./DobotCR5.png" alt="Robô CR5">
+            </div>
+            <div id="div-direita">
+              <h3>Conheça o</h3>
+              <br>
+              <h1>Dobot CR5</h1>
+            </div>
+        </div>
+        <div id="video">
+            <div id="texto1">
+            <h4>A CR5 tem repetibilidade de ±0,02 mm e 5 níveis de configurações ajustáveis de detecção de colisão. </h4>
+            
+            <h4> Use o painel de interação inteligente para arrastar e ensinar funcionalidade.</h4> 
+                
+                <h4> Faça com que o robô realize inspeção, montagem, parafusamento, retirada de caixas e </h4>
+                
+                <h4> carregamento e descarga para atender às necessidades dos setores de eletrônicos de consumo, </h4>
+                
+                <h4> semicondutores, alimentos e bebidas, processamento de metais e saúde.</h4>
+            </div>
+                
+            <video width="640" height="360" controls autoplay muted loop poster="capa.jpg">
+           
+                <source src="./videoplayback.mp4" type="video/mp4">
+                
+        </div>
+    </main>
+    <footer>
+        <ul id="lista">
+            <li class="criadores"></li>
+        </ul>
+    </footer>
+    <script src="script.js"></script>
 </body>
+
 </html>
